@@ -8,4 +8,6 @@ Download the ImageNet dataset from [http://www.image-net.org/](https://www.kaggl
 
 ## Training
 To train a model, run imagenet.py with the desired model architecture and the path to the ImageNet dataset
+```
 python main.py -a resnet18 [imagenet-folder with train and val folders]
+```
